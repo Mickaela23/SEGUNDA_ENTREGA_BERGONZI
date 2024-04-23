@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+</head>
+<body>  
+    <header> 
+        <div> <!--logo-->
+            <img src="images/time-to-travel.webp" alt="">  
+        </div>
+        <div> <!--indice-->
+              <ul> 
+               <li><a href="../index.html">Inicio</a></li>
+               <li><a href="destinos.html">Destinos</a></li> 
+               <li><a href="alojamientos.html">Alojamientos</a></li>
+               <li><a href="gastronomia.html">Gastronomia Local</a></li>
+               <li> <a href="contactos.html">Contactos</a></li>    
+            </ul>      
+        </div>
+    </header>
+
+    <section>
+        <h1>Contactos</h1>
+        
+        <form action="method=get">
+            <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre">
+            </div>
+
+            <div>
+                <label for="Apellido">Apellido:</label>
+                <input type="text" name="Apellido">
+            </div>
+
+            <div>
+                <label for="Email">Email:</label>
+                <input type="text" name="Email">
+            </div>
+
+            <div>
+                <label for="Telefono">Teléfono:</label>
+                <input type="text" name="Telefono">
+            </div>
+
+            <div>
+                <label for="Edad">Edad:</label>
+                <input type="text" name="Edad">
+            </div>
+
+            <div>
+                <label for="Provincia">Provincia:</label>
+                <select name="Provincias">
+                    <option value="Bue">Buenos Aires</option>
+                    <option value="Cor">Cordoba</option>
+                    <option value="Chu">Chubut</option>
+                    <option value="Juj">Jujuy</option>
+                    <option value="otr">Otros</option>
+                </select>
+            </div>
+            <div>
+                <label for="Comentarios">Comentarios</label>
+                <textarea name="Comentarios" cols="20" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="submit"> 
+                   Enviar 
+                </button>
+                <button type="reset">
+                    Limpiar
+                </button>
+            </div>
+         </form>
+
+     </section> 
+</body>
+
+<Footer> <!--semantica-->
+    <div>
+        <p>Mapa</p> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27240.07153989837!2d-64.20403365!3d-31.4138797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1709942078666!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+    </div>
+
+    <div>
+        <p>Logo</p>
+        <p>Redes Sociales</p>
+        <p>contacto</p>
+    </div>
+
+</Footer>
+
+</html>
